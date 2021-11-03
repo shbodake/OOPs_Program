@@ -1,2 +1,4 @@
-package com.blp.stock;public class Stock {
+package com.blp.stock;
+
+public class Stock {
 }
