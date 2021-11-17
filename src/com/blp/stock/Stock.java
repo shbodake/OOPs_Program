@@ -11,7 +11,7 @@ public class Stock
         while (flag == 0)
         {
             System.out.println("----Enter details of Stock ");
-            StockPortfo.Stock s = p.new Stock();
+            StockPortfo.Stock s = new StockPortFo().new Stock();
             System.out.println("Enter Company Name:");
             s.company = sc.nextLine();
             System.out.println("Enter number of share:");
